@@ -1,9 +1,12 @@
 import "./App.css";
+import Body from "./components/Body";
+import Head from "./components/Head";
 
 function App() {
   return (
     <div>
-      <h2 className="text-3xl text-red-700">Sonam</h2>
+      <Head />
+      <Body />
     </div>
   );
 }
